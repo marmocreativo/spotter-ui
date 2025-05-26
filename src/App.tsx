@@ -1,4 +1,4 @@
-import React, { type ReactNode } from "react";
+import { type ReactNode } from "react";
 import {
   Portal,
   Box,
@@ -29,8 +29,6 @@ import {
   PopoverTrigger,
   PopoverContent,
   Switch, 
-  FormControl,
-  FormLabel,
   useTheme 
 } from "@chakra-ui/react";
 import {
@@ -78,13 +76,6 @@ import {  FaDiscord,
           FaQuestion,
           FaMousePointer,
           FaBroadcastTower,
-          FaGlobe,
-          FaCog,
-          FaPlug,
-          FaCompass,
-          FaNetworkWired,
-          FaAndroid,
-          FaPhoneAlt
         } from "react-icons/fa";
 import { Link as RouterLink } from "react-router-dom";
 
